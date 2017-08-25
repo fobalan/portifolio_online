@@ -1,0 +1,243 @@
+html{
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 2;
+    font-size: 1.7em;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sobre {
+    display: block; 
+    padding-top: 0px;
+}
+
+.titulo-fundo {
+    background: url(../imagens/fundo_titulo.png) no-repeat 50% 100%;
+    height: 500px;
+    width: 100%;   
+    background-attachment: fixed !important;
+    transform: translateY(-10%) scale(1.2);
+
+}
+
+.display-table {
+    display: table;
+    vertical-align: middle;
+}
+
+.titulo-texto {
+    color: #FFFFFF;
+    margin: auto;
+    text-shadow: 2px 2px #000;
+    font-weight: 400;
+    font-size: 2em;
+    border: 3px solid #fff;
+    width: 40%;
+    text-align: center;
+}
+
+.foto-perfil {
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 50%;
+    height: 160px;
+    position: relative;
+    width: 160px;
+    display: block;
+    margin: -80px auto 100px;
+}
+
+.apresentacao {
+    margin: auto; 
+}
+
+.social-icons{
+    margin-top: 8px;
+}
+.social-icons a{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    transition: transform 0.5s;
+    margin-top: 15px; 
+}
+
+.social-icons a:hover{
+    transform: scale(1.5);
+}
+
+.social-icons a.facebook{
+    background-color: #5168B9;
+}
+
+.social-icons a.lindekin{
+    background-color: #007fb1;
+}
+
+.social-icons .fa{
+    margin-top: 8px;
+}
+
+#conhecimento{
+    background-color: #F1F1F9;
+}
+
+#conhecimento .sub-titulo{
+    width: 100%;
+    display: inline;
+    font-size: 1.2em;
+}
+
+#conhecimento .android .fa {
+    color: rgb(119,193,89);
+}
+#conhecimento .android .progress-bar{
+    width: 90%;
+    background-color: rgb(119,193,89);
+}
+
+#conhecimento .html5 .icon-html5-alt{
+    color: rgb(228,77,38);
+}
+
+#conhecimento .html5 .progress-bar{
+    width: 80%;
+    background-color: rgb(228,77,38);
+}
+
+#conhecimento .css3 .icon-css3-alt{
+    color: rgb(0,110,185);
+}
+
+#conhecimento .css3 .progress-bar{
+    width: 80%;
+    background-color: rgb(0,110,185);
+}
+
+#conhecimento .javascript .icon-javascript-alt{
+    color: rgb(214,186,51);
+}
+
+#conhecimento .javascript .progress-bar{
+    width: 70%;
+    background-color: rgb(214,186,51);;
+}
+
+#conhecimento .react .icon-reactjs{
+    color: rgb(97,218,251);
+}
+#conhecimento .react .progress-bar{
+    width: 60%;
+    background-color: rgb(97,218,251);
+}
+
+#conhecimento .angular2 .icon-angular-alt{
+    color: rgb(195,14,46);
+}
+
+#conhecimento .angular2 .progress-bar{
+    width: 70%;
+    background-color: rgb(195,14,46);
+}
+
+#conhecimento .java .icon-java {
+    color: rgb(248,0,0);
+}
+
+#conhecimento .java .progress-bar{
+    width: 90%;
+    background-color: rgb(248,0,0);
+}
+
+.titulo h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulo{
+    padding-bottom: 10ch;
+}
+
+#curriculum h4{
+    margin-top: 4px;
+}
+
+#curriculum h3{
+    margin: 0;
+}
+
+.cv-info .titulo{
+    display: inline;
+}
+
+.cv-info .cv-entrada .descricao{
+    color: #777;
+}
+.cv-info .cv-entrada .fa{
+    margin: 3px; 
+}
+
+#curriculum hr{
+    border-width: 2px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: #000;
+}
+
+.btn-default {
+    background: none;
+    border: 3px solid;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-radius: 1px;
+}
+
+.btn-default:hover{
+    background: #000;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+#contato{
+    background-color: #F1F1F9;
+}
+
+footer .autor {
+    margin-bottom: 0;
+    padding-top: 10px; 
+}
+
+footer {
+    font-size: 0.8em;
+    padding-bottom: 8px; 
+    background-color: rgb(91,187,212);
+    color: #fff;
+}
+
+footer .social-icons{
+    margin-top: 0px;
+}
